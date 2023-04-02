@@ -1,0 +1,315 @@
+*
+{
+    box-sizing: border-box;
+}
+.back
+{
+    background-image: url(img/devfolio/intro-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+
+ 
+}
+.layer
+{
+   
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.layer h1
+{
+    color: #fff;
+    font-weight: 600;
+    font-size: 4.5rem;
+}
+
+
+.collapse a
+{
+    text-transform: uppercase;
+   
+}
+a
+{
+position: relative;
+
+}
+
+ li a::after
+{
+    content: "";
+    color: #fff;
+    background-color: #0078ff;
+    position: absolute;
+    top: 30;
+    left: 9;
+    width: 0;
+    height: 3px;
+    margin-top: 10px;
+  opacity: 0;
+  transition: 0.5s width,0.5s opacity;
+}
+li a:hover::after
+{
+   width: 35px;
+   opacity: 1;
+}
+.hell
+{
+   
+   width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.hell a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.hello
+{
+    width: 72%;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-link
+{
+    font-weight: 600;
+    
+}
+.nav-item
+{
+    justify-content: space-around;
+}
+.title-s
+{
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+}
+.one
+{
+    padding-top: 4rem;
+}
+.pull-right {
+    float: right;
+}
+.skill-mf .progress  {
+    background-color: #cde1f8;
+    margin: .5rem 0 1.2rem 0;
+    border-radius: 0;
+    height: .7rem;
+}
+.te h5 {
+    font-size: 2rem;
+    position: relative;
+}
+
+.te h5::after
+{
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    top: 50;
+    left: 0;
+    
+}
+.le 
+{
+    font-size: 1.24rem;
+    font-weight: 300;
+}
+.ty
+{
+    color: #1e1e1e;
+    text-align: center;
+}
+.ty h3
+{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.oo
+{
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin:  auto;
+}
+.ss 
+{
+    margin-bottom: 1rem;
+    color: #1e1e1e;
+    text-align: center;
+ padding-top: 10px;
+ padding-bottom: 5px;
+}
+.ico
+{
+ text-align: center;
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+   font-size: 3rem;
+   box-shadow: 0 0 0 9px #0078ff;
+  padding: 15px 15px;
+  transition: all 500ms ease;
+}
+.pop
+{
+    text-align: center;
+}
+.pop h2
+{
+    font-size: 1.2rem;
+    padding: .4rem 0;
+}
+.pop p
+{
+    color: #4e4e4e;
+    font-size: 0.9rem;
+}
+.tt 
+{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.06), 0 0px 0px 0 rgba(0, 0, 0, 0.2);
+    margin: 0px 10px;
+ 
+}
+.tt:hover .ico
+{
+    box-shadow: 0 0 0 9px #e7eef7;
+    background-color: #0078ff;
+}
+.three
+{
+    background-image: url(img/devfolio/counters-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    
+height: 40%;
+overflow: hidden;
+}
+.con
+{
+    background-color: #0078ff ;
+  
+    opacity: 0.6;
+  
+height: 100%;
+    display: flex;
+   
+  align-items: center;
+ 
+}
+.icon
+{
+    height: 60px;
+    width: 60px;
+    line-height: 1.8;
+    box-shadow: 0 0 0 10px #ffff;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    padding: 13px 13px;
+    color: #ffff;
+}
+.ala
+{
+    text-align: center;
+    
+}
+.ala p
+{
+    color: #ffff;
+}
+.fix
+{
+    width: 2%;
+    height: 4%;
+    background: #0078ff;
+    border-radius: 50%;
+    position: fixed;
+    bottom:  15;
+    right: 20;
+text-align: center;
+padding: 10px;
+}
+.qq
+{
+    background-color: #fff;
+    padding: 0;
+}
+.qq a
+{
+    text-decoration: none;
+}
+
+.popa h2
+{
+    font-size: 1.2rem;
+    color: #1e1e1e;
+ 
+}
+.we
+{
+    color: #0078ff;
+    font-size: .8rem;
+}
+.we1
+{
+    color: #4e4e4e;
+    font-size: .8rem;
+}
+.dd
+{
+    overflow: hidden;
+}
+.qq
+{
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+ .qq img 
+{
+    transition: 1s transform;
+}
+
+.qq:hover img
+{
+    transform: scale(1.3);
+}
+.ga
+{
+    font-size: 2.5rem;
+    color: #0078ff;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+}
+.vv
+{
+   
+
+    border-radius: .25rem;
+}
+.seo
+{
+  position: relative;
+}
+.aa
+{
+   position: absolute;
+   bottom: -6;
+   left:5;
+}

@@ -1,0 +1,14 @@
+.bg-light
+{
+    background-color: red!important;
+}
+.carousel
+{
+    width: 75%;
+    margin: auto;
+  
+}
+.modal
+{
+    display: block;
+}
